@@ -1,13 +1,20 @@
 class multipleFunction():
-    @staticmethod
-    def Subfields():  
+    def Subfields():
         print("Sub-fields in AI are:")
+        info="Sub-fields in AI are:"
         print("Machine Learning")
+        info="Machine Learning"
         print("Neural Networks")
+        info="Neural Networks"
         print("Vision")
+        info="Vision"
         print("Robotics")
+        info="Robotics"
         print("Speech Processing")
+        info="Speech Processing"
         print("Natural Language Processing")
+        info="Natural Language Processing"
+        return info
         
     def OddEven():
         num = int(input("Enter a number: "))
